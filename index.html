@@ -3,75 +3,70 @@
 
 <head>
     <title>Forsu Soft | Main Page</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
-    <meta name="description" content="Game development and Software development studio.">
+    <meta name="description" 
+    content="Game development and Software development studio.">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+    type="image/x-icon" 
+    href="/images/favicon.ico">
+    <link rel="stylesheet" 
+    href="styles/style.css">
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="topnav" id="topNav">
-            <div class="topnavleft" id="topNavLeft">
-                <div class="logo"></div>
-                <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#download">Download</a>
+    <header>
+        <div class="header-container">
+            <div class="header container-left">
+                <div class="header-logo">
+                    <img src="images/forsusoft_logo.png">
+                </div>
+                <ul class="header left-nav">
+                    <li>
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Projec">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Download">Download</a>
+                    </li>
+                </ul>
             </div>
-            <div class="topnavright" id="topNavRight">
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-                <a href="#donate">Donate</a>
+            <div class="header container-right">
+                <ul class="header right-nav">
+                    <li>
+                        <a>About</a>
+                    </li>
+                    <li>
+                        <a>Contact</a>
+                    </li>
+                    <li>
+                        <a id="donate-link">Donate</a>
+                    </li>
+                </ul>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="toggleTopNav()">
-                <i class="fa fa-bars"></i>
-            </a>
         </div>
-
-
-        <script>
-            function toggleTopNav() {
-                var x = document.getElementById("topNavLeft");
-                var y = document.getElementById("topNavRight");
-                var topnav = document.getElementById("topNav");
-
-                if (x.className == "topnavleft" &&
-                    y.className == "topnavright") {
-                    x.className += " responsive";
-                    y.className += " responsive";
-                }
-                else {
-                    x.className = "topnavleft";
-                    y.className = "topnavright";
-                }
-
-                if(topnav.className == "topnav")
-                {
-                    topnav.className += " responsive";
-                }
-                else
-                {
-                    topnav.className = "topnav";
-                }
-            }
-        </script>
-        
     </header>
 
-    <img src="images/forsusoft_background.png" class="bg-image">
-    <img src="images/forsusoft_background2.png" class="bg-image">
-    <img src="images/forsusoft_background3.png" class="bg-image">
     <main>
+        
     </main>
 
     <footer>
-
+        <label>
+            © 2024 ForsuSoft
+        </label>
     </footer>
-
 </body>
 
 </html>
