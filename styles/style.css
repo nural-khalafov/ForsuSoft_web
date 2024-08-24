@@ -1,3 +1,11 @@
+/* FONT */
+@font-face {
+    font-family: 'ROG LyonsType Regular';
+    font-size: normal;
+    font-weight: normal;
+    src: local('ROG LyonsType Regular'), url('../fonts/ROGLyonsTypeRegular3.woff') format('woff');
+}
+
 /* BODY SECTION */
 
 body
@@ -8,7 +16,7 @@ body
     background-size: 100%;
     margin: 0;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: "ROG LyonsType Regular";
 }
 
 main
@@ -23,6 +31,11 @@ footer
     padding-bottom: 64px;
     font-size: 32px;
     color: white;
+}
+
+footer label
+{
+    margin-left: 150px;
 }
 
 /* HEADER SECTION */
@@ -47,7 +60,8 @@ footer
 {
     color: white;
     text-decoration: none;
-    padding: 20px 16px 20px 16px;
+    font-size: 18px;
+    padding: 26px 10px 26px 10px;
 }
 
 .header-container ul
@@ -69,7 +83,7 @@ footer
 
 .header-logo
 {
-    margin-left: 20px;
+    margin-left: 150px;
     width: 140px;
 }
 
@@ -87,7 +101,7 @@ footer
 {
     display: flex;
     float: right;
-    margin-right: 20px;
+    margin-right: 150px;
 }
 
 /* FOOTER SECTION */
@@ -95,7 +109,7 @@ footer
 
 /* MEDIA SCREEN SECTION */
 
-@media screen and (max-width: 992px) 
+@media screen and (max-width: 1223px) 
 {
     
 }
